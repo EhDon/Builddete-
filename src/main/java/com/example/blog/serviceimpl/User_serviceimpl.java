@@ -22,11 +22,8 @@ public abstract class User_serviceimpl implements User_service {
          user_repository.save(user_model);
          return user_model;
     }
-    @Override
-    public String loginUser(LoginDTO Login){
 
     }
 
-}
 
 
